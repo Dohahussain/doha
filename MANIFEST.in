@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include doha *.css
+recursive-include doha *.csv
+recursive-include doha *.html
+recursive-include doha *.ico
+recursive-include doha *.js
+recursive-include doha *.json
+recursive-include doha *.md
+recursive-include doha *.png
+recursive-include doha *.py
+recursive-include doha *.svg
+recursive-include doha *.txt
+recursive-exclude doha *.pyc
